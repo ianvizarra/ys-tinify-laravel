@@ -1,7 +1,7 @@
 {
-  "name": "yasmuru/ys-tinify-laravel",
+  "name": "ianvizarra/ys-tinify-laravel",
   "type": "library",
-  "description": "Tinify API support with laravel",
+  "description": "I just forked this for laravel 6 and 7 support. Tinify API support with laravel",
   "keywords": ["tinify","tinypng", "laravel"],
   "license": "MIT",
   "authors": [
@@ -12,7 +12,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "illuminate/support": "~5.2",
+    "illuminate/support": "5.*|6.*|7.*",
     "tinify/tinify":"*"
   },
   "autoload": {
